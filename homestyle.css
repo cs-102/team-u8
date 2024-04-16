@@ -10,7 +10,7 @@ body{
 }
 .navtop {
     display: grid;
-    grid-template-columns: 15% 15% 50% 15% 5%;
+    grid-template-columns: 15%  50% 15% 5%;
     position: fixed;
     background-color: #000000;
     width: 100vw;
@@ -88,11 +88,18 @@ body{
     background-size: cover;
     
 }
+.bookimg2{
+    background-image: url("pic.png");
+    height:25vh ;
+    width:22vh ;
+    background-size: cover;
+    
+}
 a:visited{
     text-decoration: none;
-    color:black;
+    color:aliceblue;
 }
 a:link {
     text-decoration: none;
-    color:black;
+    color:aliceblue;
 }
