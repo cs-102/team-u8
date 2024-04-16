@@ -1,0 +1,113 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-image: url(bgimghp.jpeg);
+    display: flex;
+    justify-content: center;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.navtop{
+    display: grid;
+    grid-template-columns: 15% 15%  50% 15% 5%;
+    position: fixed;
+    background-color: #D9D9D9;
+    width: 100vw;
+    padding: 3px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.navtopa{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0;
+    padding: 3px;
+    
+}
+.navtopa1{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    flex-grow: 1.5;
+    font-style: normal;
+    font-variation-settings:
+      "slnt" 0;
+      padding: 3px;
+    text-align: center;
+    justify-self: left;
+    padding-left: 16.5vw;
+  }
+.searchbox{
+    position: fixed;
+    background-color: #fff;
+    top: 50vh;
+    left: 40vw;
+    width: 25vw;
+    height: 30px;
+    align-items: center;
+    justify-self: center;
+    align-self: center;
+}
+a:visited{
+    text-decoration: none;
+    color:black;
+}
+a:link {
+    text-decoration: none;
+    color:black;
+}
+.main{
+    font-family:  "Basic", sans-serif;
+    font-size: 4vh;
+    position: relative;
+    top: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #d9d9d9f1;
+    height: 77vh;
+    width: 55vw;
+    border-radius: 35px;
+    padding: 18px;
+    
+}
+.title{
+    color: #000000;
+    
+}
+.issuebtn{
+    padding: 5px;
+    display: flex;
+  justify-content: center;
+}
+#issuebtn{
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    padding: 5px;
+    width: 15vw;
+    border: 1.4px solid black;
+    border-radius: 7px;
+}
+.issueform{
+    position: relative;
+    font-family:  "Basic", sans-serif;
+    font-size: 3.5vh;
+    display: flex;
+    height: 70vh;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.forele{
+    display: grid;
+    grid-template-columns: max-content max-content;
+    justify-content: space-between;
+    gap:  20px;
+    
+}
