@@ -1,27 +1,23 @@
 * {
     margin: 0px;
     padding: 0px;
+    color: aliceblue;
 }
-
-body {
-    background-image: url(bgimghp.jpeg);
+body{
+    background-image: url(bgdrop.jpg);
+    background-position: center;
+    overflow: hidden;
 }
-
-* {
-    margin: 0px;
-    padding: 0px;
-}
-
 .navtop {
     display: grid;
-    grid-template-columns: 15% 15% 50% 15% 5%;
+    grid-template-columns: 15%  50% 15% 5%;
     position: fixed;
-    background-color: #D9D9D9;
+    background-color: #000000;
     width: 100vw;
     padding: 3px;
     justify-content: space-evenly;
+    z-index: 100;
     align-items: center;
-
 }
 
 .navtopa {
@@ -57,12 +53,12 @@ body {
 
 a:visited {
     text-decoration: none;
-    color: black;
+    color: aliceblue;
 }
 
 a:link {
     text-decoration: none;
-    color: black;
+    color: aliceblue;
 }
 
 * {
@@ -111,14 +107,14 @@ body {
 	border-radius: 100px;
 	font: 24px/1 system-ui, sans-serif;
 	outline-offset: -8px;
-    color: #D9D9D9;
+    color: #000000;
 }
 
 
 #search svg {
 	grid-area: search;
 	overflow: visible;
-	color: #D9D9D9;
+	color: #000000;
 	fill: none;
 	stroke: currentColor;
 }
